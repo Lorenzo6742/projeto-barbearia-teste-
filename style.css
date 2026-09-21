@@ -127,8 +127,7 @@ footer {
     .servicos {
         grid-template-columns: 1fr;
     }
-}
-/* EFEITOS DOS SERVIÇOS */
+}/* EFEITOS DOS SERVIÇOS */
 .servico {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
