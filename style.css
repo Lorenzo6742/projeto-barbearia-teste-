@@ -136,3 +136,11 @@ footer {
     transform: scale(0.97);
     box-shadow: 0 5px 15px rgba(0,0,0,0.25);
 }
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(212, 175, 55, 0.25);
+}
