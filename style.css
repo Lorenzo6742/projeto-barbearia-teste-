@@ -128,3 +128,28 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+/* EFEITOS DOS SERVIÇOS */
+.servico {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.servico:active {
+    transform: scale(0.97);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+}
+
+/* BOTÃO WHATSAPP */
+.contato a {
+    display: inline-block;
+    padding: 14px 24px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+}
+
+.contato a:active {
+    transform: scale(0.96);
+}
