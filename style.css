@@ -1,1 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+header {
+    background: #0a0a0a;
+    padding: 25px 20px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+header h1 {
+    color: #d4af37;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #aaa;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9));
+}
+
+.hero h2 {
+    font-size: 42px;
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #d4af37;
+    color: #111;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao:active {
+    transform: scale(0.95);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #d4af37;
+}
+
+.servicos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #1c1c1c;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.card h3 {
+    color: #d4af37;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #bbb;
+}
+
+.preco {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.contato {
+    text-align: center;
+    background: #181818;
+}
+
+.contato p {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #080808;
+    color: #777;
+}
+
+@media (max-width: 600px) {
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .servicos {
+        grid-template-columns: 1fr;
+    }
+}
